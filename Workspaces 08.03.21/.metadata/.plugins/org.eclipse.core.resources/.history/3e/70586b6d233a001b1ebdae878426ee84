@@ -1,0 +1,17 @@
+package fr.campusacademy.oopcourse.inheritance.model;
+
+import fr.campusacademy.oopcourse.inheritance.model.Person;
+
+public class Student {
+
+	protected String studentid;
+	protected double gradePointAverage;
+
+	public Student(String name, int age, String gender, String studentid, double gradePointAverage) {
+
+		this.name = name;
+		this.studentid = studentid;
+		this.gradePointAverage = gradePointAverage;
+	}
+
+}

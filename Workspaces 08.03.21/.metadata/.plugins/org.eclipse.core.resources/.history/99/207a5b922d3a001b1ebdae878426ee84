@@ -1,0 +1,13 @@
+package fr.campusacademy.demo_7_inheritance_catlike.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		CatLike catlike = new CatLike("Bob", "Black", 100.0F);
+
+		Cat cat = new Cat();
+
+		Tiger tiger = new Tiger();
+	}
+}

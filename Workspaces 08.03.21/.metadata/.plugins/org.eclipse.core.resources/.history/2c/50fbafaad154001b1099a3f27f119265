@@ -1,0 +1,37 @@
+package fr.campusacademy.gameoflife.model;
+
+public class World {
+
+	private int nbColumns;
+	private int nbRows;
+
+	public World(int nbColumns, int nbRows) {
+		this.setNbColumns(nbColumns);
+		this.setNbRows(nbRows);
+	}
+
+	public void newGeneration() {
+
+	}
+
+	public int getNbColumns() {
+		return nbColumns;
+	}
+
+	public void setNbColumns(int nbColumns) {
+		this.nbColumns = nbColumns;
+	}
+
+	public int getNbRows() {
+		return nbRows;
+	}
+
+	public void setNbRows(int nbRows) {
+		this.nbRows = nbRows;
+	}
+
+	@Override
+	public String toString() {
+		return "Columns number: " + nbColumns + " - Rows number: " + nbRows;
+	}
+}

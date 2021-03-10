@@ -1,0 +1,16 @@
+package fr.campusacademy.oopcourse.polymorphism.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Shape shape1 = new Rectangle();
+		System.out.println(shape1 );
+		System.out.println("Area is " + shape1.getArea());
+
+		Shape shape2 = new Triangle();
+		System.out.println(shape2);
+		System.out.println("Area is " + shape2.getArea());
+	}
+
+}

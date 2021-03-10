@@ -1,0 +1,6 @@
+package fr.campusacademy.gameoflife.model;
+
+public interface Cell {
+
+	public abstract Cell newGeneration(int nbNeighbours);
+}

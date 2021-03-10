@@ -1,0 +1,7 @@
+package fr.campusacademy.oopcourse.interfaces.model;
+
+public class MovableRectangle {
+
+	private MovablePoint topLeft;
+	private MovablePoint bottomLeft;
+}

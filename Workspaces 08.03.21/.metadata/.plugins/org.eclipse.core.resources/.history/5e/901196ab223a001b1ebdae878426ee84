@@ -1,0 +1,5 @@
+package fr.campusacademy.oopcourse.inheritance.model;
+
+public class Person {
+
+}

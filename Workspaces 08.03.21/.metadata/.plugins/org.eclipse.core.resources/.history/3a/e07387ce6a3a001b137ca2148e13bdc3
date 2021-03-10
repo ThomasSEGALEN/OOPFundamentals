@@ -1,0 +1,44 @@
+package fr.campusacademy.oopcourse.inheritance.launcher;
+
+import fr.campusacademy.demo_7_inheritance_catlike.model.Cat;
+import fr.campusacademy.demo_7_inheritance_catlike.model.CatLike;
+import fr.campusacademy.demo_7_inheritance_catlike.model.Tiger;
+
+//import fr.campusacademy.inheritance.model.CollegeStudent;
+//import fr.campusacademy.inheritance.model.Person;
+//import fr.campusacademy.inheritance.model.Student;
+//import fr.campusacademy.inheritance.model.Teacher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Person bob = new Person("Coach Bob", 27, "M");
+		
+		System.out.println(bob);
+
+		Student lynne = new Student("Lynne Brooke", 16, "F", "HS95129", 3.5);
+
+		System.out.println(lynne);
+		
+		Teacher teacher = new Teacher();
+		teacher.setName("name");
+		teacher.setAge(age);
+		teacher.setGender("gender");
+
+		System.out.println(teacher);
+
+
+
+//		Cat cat2 = new Cat("Pompom", "White", 3.2F);
+//		cat2.cleanItSelf();
+//
+//		System.out.println(cat2);
+//
+//		Tiger tiger2 = new Tiger("Robert", "Brown", 98.2F);
+//		tiger2.cleanItSelf();
+//		
+//		System.out.println(tiger2);
+	}
+
+}

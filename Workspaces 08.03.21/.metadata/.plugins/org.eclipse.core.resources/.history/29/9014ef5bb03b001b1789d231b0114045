@@ -1,0 +1,5 @@
+package fr.campusacademy.oopcourse.interfaces.launcher;
+
+public class Launcher {
+
+}

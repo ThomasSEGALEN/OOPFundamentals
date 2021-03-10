@@ -1,0 +1,19 @@
+package fr.campusacademy.oopcourse.demo_5_car.model;
+
+public class Car {
+
+	// Attributes / Instance variables = States
+	String color;
+	double price;
+	String brand;
+
+	// Instance methods = Behavior
+	void startEngine() {
+		
+	}
+	
+	void stopEngine() {
+		
+	}
+
+}

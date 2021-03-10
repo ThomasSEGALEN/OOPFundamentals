@@ -1,0 +1,22 @@
+package fr.campusacademy.oopcourse.polymorphism.launcher;
+
+import fr.campusacademy.oopcourse.polymorphism.model.Rectangle;
+import fr.campusacademy.oopcourse.polymorphism.model.Shape;
+import fr.campusacademy.oopcourse.polymorphism.model.Triangle;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Shape shape1 = new Rectangle();
+		System.out.println(shape1 );
+		System.out.println("Area is ");
+		System.out.println(shape1.getArea());
+
+		Shape shape2 = new Triangle();
+		System.out.println(shape2);
+		System.out.print("Area is ")
+		System.out.println(shape2.getArea());
+	}
+
+}

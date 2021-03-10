@@ -1,0 +1,31 @@
+package fr.campusacademy.oopcourse.polymorphism.launcher;
+
+import fr.campusacademy.oopcourse.polymorphism.model.Rectangle;
+import fr.campusacademy.oopcourse.polymorphism.model.Shape;
+import fr.campusacademy.oopcourse.polymorphism.model.Triangle;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Shape shape1 = new Rectangle("Purple", 3.0, 4.0);
+		System.out.println(shape1 );
+		System.out.print("Area is ");
+		shape1.getArea();
+
+		System.out.println("");
+
+		Shape shape2 = new Triangle("Green", 5.0, 7.0);
+		System.out.println(shape2);
+		System.out.print("Area is ");
+		shape2.getArea();
+
+		System.out.println("");
+
+		// Constructing a Shape instance poses problem
+//		Shape shape3 = new Shape("Blue");
+//		System.out.println(shape3);
+//		shape3.getArea();
+	}
+
+}

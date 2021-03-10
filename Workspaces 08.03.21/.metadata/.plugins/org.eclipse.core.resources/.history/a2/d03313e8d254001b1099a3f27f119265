@@ -1,0 +1,53 @@
+package fr.campusacademy.gameoflife.model;
+
+import java.util.Iterator;
+
+public class World {
+
+	private Cell[][] cells;
+	private int nbColumns;
+	private int nbRows;
+
+	public World(int nbColumns, int nbRows) {
+		cells = new Cell[nbColumns][nbRows];
+		
+		for (int i = 0; i < cells.length; i++) {
+			for (int j = 0; j < cells.length; j++) {
+				cells[i][j] = new AliveCell();
+			}
+
+		}
+	}
+
+	public void newGeneration() {
+
+	}
+
+	public int getNbColumns() {
+		return nbColumns;
+	}
+
+	public void setNbColumns(int nbColumns) {
+		this.nbColumns = nbColumns;
+	}
+
+	public int getNbRows() {
+		return nbRows;
+	}
+
+	public void setNbRows(int nbRows) {
+		this.nbRows = nbRows;
+	}
+
+	@Override
+	public String toString() {
+		String worldStr = "";
+		for (int i = 0; i < cells.length; i++) {
+			for (int j = 0; j < cells.length; j++) {
+				worldStr += cells[i][j].getAsString();
+			}
+			worldStr += "\n";
+		}
+		return worldStr;
+	}
+}

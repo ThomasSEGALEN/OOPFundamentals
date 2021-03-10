@@ -1,0 +1,9 @@
+package fr.campusacademy.oopcourse.boardgame.model;
+
+public class Boardgame {
+
+	private int nbOfPlayers;
+	private String name;
+
+	
+}

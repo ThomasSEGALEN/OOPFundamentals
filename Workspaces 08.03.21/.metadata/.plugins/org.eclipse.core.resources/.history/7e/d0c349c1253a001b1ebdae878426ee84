@@ -1,0 +1,15 @@
+package fr.campusacademy.oopcourse.inheritance.model;
+
+public class Teacher extends Person {
+
+	public String subject;
+	public double salary;
+
+	Teacher(String name, int age, String gender, String subject, double salary) {
+
+		this.subject = subject;
+		this.salary = salary;
+	}
+
+	
+}

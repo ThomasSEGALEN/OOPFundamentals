@@ -1,0 +1,16 @@
+package fr.campusacademy.oopcourse.boardgame.model;
+
+public class Cardgame extends Boardgame {
+
+	public Cardgame() {
+
+		super();
+	}
+
+	public Cardgame(int nbOfPlayers, String name) {
+
+		super(nbOfPlayers, name);
+	}
+
+	
+}

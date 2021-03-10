@@ -1,0 +1,8 @@
+package fr.campusacademy.oopcourse.revisionoop.model;
+
+public class Vehicle {
+
+	public void turn() {
+		System.out.println("Turning like a vehicle");
+	}
+}

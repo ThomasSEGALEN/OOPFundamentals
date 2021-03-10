@@ -1,0 +1,10 @@
+package fr.campusacademy.oopcourse.smartphone.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Smartphone smartphone = new Smartphone("iPhone 12", 10);
+	}
+
+}

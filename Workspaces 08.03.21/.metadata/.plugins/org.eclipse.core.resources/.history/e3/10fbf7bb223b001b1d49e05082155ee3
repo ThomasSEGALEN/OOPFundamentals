@@ -1,0 +1,9 @@
+package fr.campusacademy.oopcourse.polymorphism.model;
+
+public class Rectangle extends Shape {
+
+	protected double length;
+	protected double width;
+
+	
+}

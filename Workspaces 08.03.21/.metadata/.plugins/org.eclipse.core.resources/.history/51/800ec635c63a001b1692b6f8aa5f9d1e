@@ -1,0 +1,8 @@
+package fr.campusacademy.oopcourse.boardgame.model;
+
+public class Box {
+
+	private String color;
+	private double height;
+	private double width;
+}

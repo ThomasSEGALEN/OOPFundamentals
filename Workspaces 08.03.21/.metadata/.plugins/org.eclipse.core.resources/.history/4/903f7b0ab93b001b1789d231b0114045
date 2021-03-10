@@ -1,0 +1,9 @@
+package fr.campusacademy.oopcourse.gameoflife.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+	}
+
+}

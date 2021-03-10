@@ -1,0 +1,15 @@
+package fr.campusacademy.oopcourse.polymorphism.model;
+
+public class Shape {
+
+	protected String color;
+
+	public Shape {
+
+	}
+
+	public abstract class Shape {
+
+		
+	}
+}

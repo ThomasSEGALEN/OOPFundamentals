@@ -1,0 +1,8 @@
+package fr.campusacademy.oopcourse.demo_6_computer.model;
+
+public class Computer {
+
+	private double price;
+	private String GPU;
+
+}

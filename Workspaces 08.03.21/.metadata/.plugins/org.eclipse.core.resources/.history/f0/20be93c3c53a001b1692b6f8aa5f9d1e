@@ -1,0 +1,21 @@
+package fr.campusacademy.oopcourse.boardgame.launcher;
+
+import fr.campusacademy.oopcourse.boardgame.model.Boardgame;
+import fr.campusacademy.oopcourse.boardgame.model.Cardgame;
+import fr.campusacademy.oopcourse.boardgame.model.RolePlayingGame;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Boardgame firstGame = new Boardgame(4, "7wonders");
+		System.out.println(firstGame);
+		
+		Cardgame myCardGame = new Cardgame(2, "love letter");
+		System.out.println(myCardGame);
+		
+		RolePlayingGame myRPG = new RolePlayingGame(6, "cammOFCthuli");
+		System.out.println(myRPG);
+	}
+
+}

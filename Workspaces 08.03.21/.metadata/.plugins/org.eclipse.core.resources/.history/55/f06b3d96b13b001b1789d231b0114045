@@ -1,0 +1,33 @@
+package fr.campusacademy.oopcourse.interfaces.model;
+
+public class MovableCircle implements Movable {
+
+	private MovablePoint center;
+	private int radius;
+
+	public MovableCircle() {
+
+		
+	}
+
+	@Override
+	public void moveUp() {
+
+	}
+
+	@Override
+	public void moveDown() {
+
+	}
+
+	@Override
+	public void moveLeft() {
+
+	}
+
+	@Override
+	public void moveRight() {
+
+	}
+
+}

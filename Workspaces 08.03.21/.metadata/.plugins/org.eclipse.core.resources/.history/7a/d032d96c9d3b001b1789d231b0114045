@@ -1,0 +1,7 @@
+package fr.campusacademy.oopcourse.demo_10_abstract.model;
+
+public class Catlike {
+
+	public abstract void hunt();
+
+}

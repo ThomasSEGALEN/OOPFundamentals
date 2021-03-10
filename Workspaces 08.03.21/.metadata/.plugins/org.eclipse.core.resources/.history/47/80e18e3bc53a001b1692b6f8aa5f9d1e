@@ -1,0 +1,10 @@
+package fr.campusacademy.oopcourse.boardgame.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Boardgame() firstGame = new Boardgame(4, "7wonders");
+	}
+
+}

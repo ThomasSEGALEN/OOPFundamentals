@@ -1,0 +1,17 @@
+package fr.campusacademy.oopcourse.demo_6_computer.model;
+
+public class GPU {
+
+	String model;
+	String brand;
+	int nbOfCores;
+
+	public GPU(String model, String brand, int nbOfCores) {
+
+		this.model = model;
+		this.brand = brand;
+		this.nbOfCores = nbOfCores;
+
+	}
+
+}

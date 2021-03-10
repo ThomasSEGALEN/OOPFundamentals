@@ -1,0 +1,13 @@
+package fr.campusacademy.oopcourse.inheritance.launcher;
+
+//import fr.campusacademy.inheritance.model.CollegeStudent;
+//import fr.campusacademy.inheritance.model.Person;
+//import fr.campusacademy.inheritance.model.Student;
+//import fr.campusacademy.inheritance.model.Teacher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,14 @@
+package fr.campusacademy.oopcourse.interfaces.launcher;
+
+import fr.campusacademy.oopcourse.interfaces.model.Movable;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Movable movable1 = new MovablePoint(5, 6, 10, 4);
+		System.out.print(movable1);
+		movable1.moveLeft();
+	}
+
+}

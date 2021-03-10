@@ -1,0 +1,8 @@
+package fr.campusacademy.oopcourse.inheritance.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+	}
+}

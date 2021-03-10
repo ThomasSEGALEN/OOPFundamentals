@@ -1,0 +1,13 @@
+package fr.campusacademy.oopcourse.demo_5_car.launcher;
+
+import fr.campusacademy.oopcourse.demo_5_car.model.Car;
+
+public class Launcher {
+	
+	public static void main(String[] args) {
+
+		Car myCar = new Car();
+		
+	}
+
+}

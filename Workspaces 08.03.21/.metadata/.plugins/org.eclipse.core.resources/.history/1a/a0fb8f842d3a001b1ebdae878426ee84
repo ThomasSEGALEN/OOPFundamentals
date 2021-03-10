@@ -1,0 +1,8 @@
+package fr.campusacademy.demo_7_inheritance_catlike.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,9 @@
+package fr.campusacademy.oopcourse.demo_5_car.model;
+
+public class Car {
+
+	String color;
+	double price;
+	String brand;
+
+}

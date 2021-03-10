@@ -1,0 +1,12 @@
+package fr.campusacademy.authorandbook.launcher;
+
+import fr.campusacademy.authorandbook.model.Author;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Author anAuthor = new Author("Tan Ah Teck", "ahteck@somewhere.com", 'm');
+	}
+
+}

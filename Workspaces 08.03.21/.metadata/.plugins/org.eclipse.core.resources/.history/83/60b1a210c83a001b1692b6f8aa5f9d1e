@@ -1,0 +1,12 @@
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		int myFirstInt = 10;
+	}
+
+	static void changeMyInt(int myFirstInt) {
+		myInt = 0;
+	}
+}

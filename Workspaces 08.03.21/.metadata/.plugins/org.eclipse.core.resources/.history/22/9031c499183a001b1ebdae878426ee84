@@ -1,0 +1,32 @@
+package fr.campusacademy.oopcourse.demo_6_computer.model;
+
+public class Computer {
+
+	private double price;
+	private String GPU;
+
+	public Computer() {
+
+	}
+
+	public double getPrice() {
+
+		return price;
+	}
+
+	public void setPrice(double price) {
+
+		this.price = price;
+	}
+
+	public String getGPU() {
+
+		return GPU;
+	}
+
+	public void setGPU(String gPU) {
+
+		GPU = gPU;
+	}
+
+}

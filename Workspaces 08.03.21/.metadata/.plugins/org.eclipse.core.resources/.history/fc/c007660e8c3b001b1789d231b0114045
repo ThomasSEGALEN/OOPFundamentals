@@ -1,0 +1,5 @@
+package fr.campusacademy.oopcourse.smartphone.model;
+
+public class IPhone {
+
+}

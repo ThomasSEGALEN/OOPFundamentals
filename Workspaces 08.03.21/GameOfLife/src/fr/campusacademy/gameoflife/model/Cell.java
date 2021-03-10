@@ -1,0 +1,7 @@
+package fr.campusacademy.gameoflife.model;
+
+public interface Cell {
+	public abstract Cell newGeneration(int nbNeighbours);
+	public abstract String getAsString();
+	public abstract boolean isAlive();
+}

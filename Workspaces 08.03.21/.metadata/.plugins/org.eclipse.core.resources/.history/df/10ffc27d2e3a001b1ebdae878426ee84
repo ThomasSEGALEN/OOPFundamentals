@@ -1,0 +1,5 @@
+package fr.campusacademy.demo_7_inheritance_catlike.model;
+
+public class Cat extends CatLike {
+
+}

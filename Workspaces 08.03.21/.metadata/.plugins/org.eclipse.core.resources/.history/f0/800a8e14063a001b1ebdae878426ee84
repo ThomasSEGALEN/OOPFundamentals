@@ -1,0 +1,31 @@
+package fr.campusacademy.oopcourse.demo_5_car.model;
+
+public class Car {
+
+	// Static variable = Class variable
+	public static int nbOfWheels = 4;
+	
+	// Attributes / Instance variables = States
+	public String color;
+	public double price;
+	public String brand;
+
+	// Instance methods (non-static) = Behavior
+	public void startEngine() {
+
+	}
+
+	public void stopEngine() {
+
+	}
+	
+	public static void printAllCarBrand() {
+
+		System.out.println("BMW");
+		System.out.println("Peugeot");
+		System.out.println("Renault");
+		System.out.println("Fiat");
+
+	}
+
+}

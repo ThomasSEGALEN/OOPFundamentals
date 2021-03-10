@@ -1,0 +1,9 @@
+package fr.campusacademy.oopcourse.revisionoop.model;
+
+public class Bike extends Vehicle {
+
+	void start() {
+		System.out.println("Start like a bike");
+	}
+
+}

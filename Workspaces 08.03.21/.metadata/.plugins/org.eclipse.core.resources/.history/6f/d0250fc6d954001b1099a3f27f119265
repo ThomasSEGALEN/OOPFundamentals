@@ -1,0 +1,61 @@
+package fr.campusacademy.gameoflife.model;
+
+import java.util.Random;
+
+public class World {
+
+	private int nbNeighbours = 0;
+	private Cell[][] cells;
+
+	public World(int nbColumns, int nbRows) {
+		cells = new Cell[nbColumns][nbRows];
+		Random random = new Random();
+
+		for (int i = 0; i < cells.length; i++) {
+			for (int j = 0; j < cells.length; j++) {
+				if (random.nextBoolean()) {
+					cells[i][j] = new AliveCell();
+				} else {
+					cells[i][j] = new DeadCell();
+				}
+			}
+		}
+	}
+
+	public void newGeneration(Cell[][] cells) {
+		int nbNeighbours = 0;
+
+		for (int i = 0; i < cells.length; i++) {
+			for (int j = 0; j < cells.length; j++) {
+				for (int a = -1; a < 2; a++) {
+					for (int b = -1; b < 2; b++) {
+						if (cells[i + a][j + b].isAlive()) {
+							nbNeighbours += 1;
+						}
+					}
+				}
+				cells.newGeneration(nbNeigbours);
+			}
+		}
+	}
+
+	@Override
+	public String toString() {
+		String worldStr = "";
+		for (int i = 0; i < cells.length; i++) {
+			for (int j = 0; j < cells.length; j++) {
+				worldStr += cells[i][j].getAsString();
+			}
+			worldStr += "\n";
+		}
+		return worldStr;
+	}
+
+	public int getNbNeighbours() {
+		return nbNeighbours;
+	}
+
+	public void setNbNeighbours(int nbNeighbours) {
+		this.nbNeighbours = nbNeighbours;
+	}
+}

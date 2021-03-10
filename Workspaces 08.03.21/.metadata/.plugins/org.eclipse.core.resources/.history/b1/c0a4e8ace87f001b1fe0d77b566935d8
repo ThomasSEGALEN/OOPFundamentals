@@ -1,0 +1,19 @@
+package fr.campusacademy.oopcourse.revisionoop.launcher;
+
+import fr.campusacademy.oopcourse.revisionoop.model.Bike;
+import fr.campusacademy.oopcourse.revisionoop.model.Car;
+import fr.campusacademy.oopcourse.revisionoop.model.Vehicle;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+//		Vehicle vehicle = new Vehicle();
+//		vehicle.turn();
+		
+		Car car = new Car();
+		car.turn();
+		
+		Bike bike = new Bike();
+		bike.turn();
+	}
+}

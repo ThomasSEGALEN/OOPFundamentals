@@ -1,0 +1,14 @@
+package fr.campusacademy.gameoflife.model;
+
+public class DeadCell implements Cell {
+
+	
+
+	@Override
+	public String getAsString() {
+
+		return "-";
+	}
+
+
+}

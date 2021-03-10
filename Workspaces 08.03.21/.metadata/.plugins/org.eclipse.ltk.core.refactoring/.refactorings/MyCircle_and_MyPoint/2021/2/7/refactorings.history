@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MyPoint.java&apos; to &apos;MyTriangle_and_MyPoint/src/fr.campusacademy.oopcourse.mytriangle_and_mypoint.model&apos;&#x0D;&#x0A;- Original project: &apos;MyCircle_and_MyPoint&apos;&#x0D;&#x0A;- Destination element: &apos;MyTriangle_and_MyPoint/src/fr.campusacademy.oopcourse.mytriangle_and_mypoint.model&apos;&#x0D;&#x0A;- Original element: &apos;fr.campusacademy.oopcourse.mycircle_and_mypoint.model.MyPoint.java&apos;" description="Copy compilation unit" destination="=MyTriangle_and_MyPoint/src&lt;fr.campusacademy.oopcourse.mytriangle_and_mypoint.model" element1="/src&lt;fr.campusacademy.oopcourse.mycircle_and_mypoint.model{MyPoint.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1613384859982" units="1" version="1.0"/>
+</session>

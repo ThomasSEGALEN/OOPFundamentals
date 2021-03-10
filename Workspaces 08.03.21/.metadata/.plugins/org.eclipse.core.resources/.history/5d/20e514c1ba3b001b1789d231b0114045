@@ -1,0 +1,25 @@
+package fr.campusacademy.gameoflife.model;
+
+public class DeadCell implements Cell {
+
+	
+
+	@Override
+	public Cell newGeneration(int nbNeighbours) {
+
+		return null;
+	}
+
+	@Override
+	public String getAsString() {
+
+		return "-";
+	}
+
+	@Override
+	public boolean isAlive() {
+
+		return false;
+	}
+
+}

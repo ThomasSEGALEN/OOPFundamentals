@@ -1,0 +1,22 @@
+package fr.campusacademy.oopcourse.demo_5_car.model;
+
+public class Car {
+
+	// Static variable
+	public static int something;
+	
+	// Attributes / Instance variables = States
+	public String color;
+	public double price;
+	public String brand;
+
+	// Instance methods (non-static) = Behavior
+	public void startEngine() {
+
+	}
+
+	public void stopEngine() {
+
+	}
+
+}

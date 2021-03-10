@@ -1,0 +1,101 @@
+package fr.myschool.arraysort;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class Sorter {
+	
+	public static void main(String[] args) {
+
+		int[] array = new int[10];
+		
+		for (int i = 0; i < array.length; i++) {
+			
+			array[i] = new Random().nextInt(101);
+		}
+		
+		displayArray(array);
+
+	}
+
+	static void bubbleSort(int[] array) {
+
+		for (int i = 0; i <= array.length - 1; i++) {
+
+			for (int j = 0; j <= array.length - 2; j++) {
+
+				if (array[j] > array[j + 1]) {
+					
+					int temp = array[j];
+					array[j] = array[j + 1];
+					array[j + 1] = temp;
+
+				}
+
+			}
+
+		}
+
+		System.out.println(Arrays.toString(array));
+
+	}
+
+	static void selectionSort(int[] array) {
+
+		for (int i = 0; i <= array.length - 1; i++) {
+
+			int smallSub = i;
+
+			for (int j = i + 1; j <= array.length - 1; j++) {
+
+				if (array[j] < array[smallSub]) {
+
+					smallSub = j;
+
+				}
+
+			}
+
+			int temp = array[i];
+			array[i] = array[smallSub];
+			array[smallSub] = temp;
+
+		}
+
+		System.out.println(Arrays.toString(array));
+
+	}
+
+	static void insertionSort(int[] array) {
+
+		for (int i = 1; i < array.length - 1; i++) {
+
+			int j = i;
+
+			while ((j >= 1) && (array[j]) < array[j - 1]) {
+
+				int temp = array[j];
+				array[j] = array[j - 1];
+				array[j - 1] = temp;
+				j = j - 1;
+
+			}
+
+		}
+
+		System.out.println(array);
+
+	}
+
+	static void displayArray(int[] array) {
+
+		System.out.println("Bubble Sort:");
+		bubbleSort(array);
+		System.out.println("Selection Sort:");
+		selectionSort(array);
+		System.out.println("Insertion Sort:");
+		insertionSort(array);
+
+	}
+
+}

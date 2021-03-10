@@ -1,0 +1,13 @@
+package fr.campusacademy.oopcourse.inheritance.model;
+
+public class Teacher {
+
+	public String subject;
+	public double salary;
+
+	Teacher(String subject, double salary) {
+
+		this.subject = subject;
+		this.salary = salary;
+	}
+}

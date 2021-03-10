@@ -1,0 +1,11 @@
+package fr.campusacademy.oopcourse.demo_9_polymorphism.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Catlike catlike = new Catlike();
+		Cat cat = new Cat();
+		Tiger tiger = new Tiger();
+	}
+}

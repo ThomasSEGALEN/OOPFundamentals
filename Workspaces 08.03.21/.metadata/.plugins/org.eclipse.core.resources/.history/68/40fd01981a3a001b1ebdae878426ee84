@@ -1,0 +1,32 @@
+package fr.campusacademy.oopcourse.demo_6_computer.model;
+
+public class Computer {
+
+	private GPU graphicalCard;
+	private String name;
+
+	public Computer(GPU graphicalCard, String name) {
+
+	}
+
+	public GPU getGraphicalCard() {
+
+		return graphicalCard;
+	}
+
+	public void setGraphicalCard(GPU graphicalCard) {
+
+		this.graphicalCard = graphicalCard;
+	}
+
+	public String getName() {
+
+		return name;
+	}
+
+	public void setName(String name) {
+
+		this.name = name;
+	}
+
+}

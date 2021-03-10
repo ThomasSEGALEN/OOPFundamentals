@@ -1,0 +1,33 @@
+package fr.campusacademy.oopcourse.demo_9_polymorphism.launcher;
+
+import fr.campusacademy.oopcourse.demo_9_polymorphism.model.Cat;
+import fr.campusacademy.oopcourse.demo_9_polymorphism.model.Catlike;
+import fr.campusacademy.oopcourse.demo_9_polymorphism.model.Tiger;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Catlike catlike = new Catlike();
+		Cat cat = new Cat();
+		Tiger tiger = new Tiger();
+
+		// Polymorphism : declared type is not true type
+		// Declared type : type of the variable
+		// True type : type of the instance
+		Catlike catlike2 = new Tiger();
+		Catlike catlike3 = new Cat();
+
+		Catlike[] catLikeArray = new Catlike[3];
+		catLikeArray[0] = new Cat();
+		catLikeArray[1] = new Tiger();
+		catLikeArray[2] = new Catlike();
+
+		Catlike catlike4 = new Cat();
+		catlike4.sleep();
+		catlike4.eatCatFood();
+		
+		// Cast : convert variable to another type
+	}
+
+}

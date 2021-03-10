@@ -1,0 +1,9 @@
+package fr.campusacademy.authorandbook.model;
+
+public class Author {
+
+	private String name;
+	private String email;
+	private Car gender;
+	
+}

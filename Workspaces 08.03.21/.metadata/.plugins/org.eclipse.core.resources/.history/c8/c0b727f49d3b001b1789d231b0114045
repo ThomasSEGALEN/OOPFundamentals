@@ -1,0 +1,9 @@
+package fr.campusacademy.oopcourse.demo_10_abstract.launcher;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+	}
+
+}

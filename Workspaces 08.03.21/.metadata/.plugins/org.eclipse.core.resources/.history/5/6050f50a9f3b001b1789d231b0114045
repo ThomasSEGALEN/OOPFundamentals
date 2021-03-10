@@ -1,0 +1,11 @@
+package fr.campusacademy.oopcourse.demo_10_abstract.model;
+
+public abstract class Catlike {
+
+	public abstract void hunt();
+
+	public void climb() {
+
+		System.out.println("Climbing");
+	}
+}

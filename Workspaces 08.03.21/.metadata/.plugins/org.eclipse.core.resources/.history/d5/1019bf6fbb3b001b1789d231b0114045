@@ -1,0 +1,13 @@
+package fr.campusacademy.gameoflife.model;
+
+public class World {
+
+	private int nbColumns;
+	private int nbRows;
+
+	public World(int nbColumns, int nbRows) {
+
+		
+	}
+
+}

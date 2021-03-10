@@ -1,0 +1,13 @@
+package fr.campusacademy.oopcourse.interfaces.model;
+
+public class MovableRectangle {
+
+	private MovablePoint topLeft;
+	private MovablePoint bottomLeft;
+
+	public MovableRectangle(int x, int y, int xSpeed, int ySpeed) {
+
+		topLeft = new MovablePoint(x, y, xSpeed, ySpeed);
+		bottomLeft = new MovablePoint(x, y, xSpeed, ySpeed);
+	}
+}

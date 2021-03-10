@@ -1,0 +1,23 @@
+package fr.campusacademy.oopcourse.polymorphism.model;
+
+public abstract class Shape {
+
+	protected String color;
+
+	public Shape(String color) {
+
+		this.color = color;
+	}
+
+	public void getArea() {
+
+		return area;
+	}
+
+	@Override
+	public String toString() {
+
+		return "Shape color: " + color;
+	}
+
+}

@@ -1,0 +1,13 @@
+package fr.campusacademy.oopcourse.demo_10_abstract.launcher;
+
+import fr.campusacademy.oopcourse.demo_10_abstract.model.Catlike;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+
+		Catlike catlike = new Tiger();
+		catlike.hunt();
+	}
+
+}

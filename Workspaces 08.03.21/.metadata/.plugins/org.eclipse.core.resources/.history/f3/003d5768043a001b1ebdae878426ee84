@@ -1,0 +1,22 @@
+package fr.campusacademy.oopcourse.demo_5_car.launcher;
+
+import fr.campusacademy.oopcourse.demo_5_car.model.Car;
+
+public class Launcher {
+	
+	public static void main(String[] args) {
+
+		Car myCar1 = new Car();
+		myCar1.color = "Yellow";
+		myCar1.price = 59000.0;
+		myCar1.brand = "BMW";
+
+		Car myCar2 = new Car();
+		myCar1.color = "Blue";
+		myCar1.price = 28000.0;
+		myCar1.brand = "BMW";
+		
+		
+	}
+
+}

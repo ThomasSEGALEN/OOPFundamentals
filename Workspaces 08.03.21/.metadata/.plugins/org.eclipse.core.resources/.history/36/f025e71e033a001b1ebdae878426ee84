@@ -1,0 +1,11 @@
+package fr.campusacademy.oopcourse.demo_5_car.launcher;
+
+public class Launcher {
+	
+	public static void main(String[] args) {
+
+		Car myCar = new Car();
+		
+	}
+
+}

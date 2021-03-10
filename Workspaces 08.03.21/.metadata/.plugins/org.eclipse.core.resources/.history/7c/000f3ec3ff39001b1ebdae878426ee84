@@ -1,0 +1,5 @@
+package fr.campusacademy.oopcourse.demo_5_car.model;
+
+public class Car {
+
+}
